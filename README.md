@@ -1,3 +1,9 @@
+## SWE-Bench-Fork for SWE-Gym
+
+This fork contains environment setup files used for additonal 11 repos used in SWE-Gym dataset and an improved version of the instance collection pipeline.
+
+We plan to upstream the changes and merge with SWE-Bench soon.
+
 <p align="center">
   <a href="https://github.com/princeton-nlp/Llamao">
     <img src="assets/figures/swellama_banner.png" width="50%" alt="Kawi the SWE-Llama" />
