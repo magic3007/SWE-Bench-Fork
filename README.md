@@ -1,4 +1,7 @@
 ## SWE-Bench-Fork for SWE-Gym
+[SWE-Gym Dataset + Models](https://huggingface.co/SWE-Gym)
+
+[Project page](swe-gym.github.io)
 
 This fork contains environment setup files used for additonal 11 repos used in SWE-Gym dataset and an improved version of the instance collection pipeline.
 
