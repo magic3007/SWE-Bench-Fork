@@ -30,6 +30,10 @@ ENV PATH=/opt/miniconda3/bin:$PATH
 RUN conda init --all
 RUN conda config --append channels conda-forge
 
+# use libmamba solver
+RUN conda install -n base conda-libmamba-solver -y
+RUN conda config --set solver libmamba
+
 RUN adduser --disabled-password --gecos 'dog' nonroot
 """
 
